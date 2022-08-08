@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
+// Guessing game in C, the goal is to find the number chosen by the computer, which is a number between 1 and 100, good luck !!
 
 
 int main()
