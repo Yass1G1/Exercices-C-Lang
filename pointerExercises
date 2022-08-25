@@ -3,6 +3,7 @@
 
 int main(int argc, char* argv[])
 {
+// First exercises : Show the basic declaration of pointers
 	printf("Pointer : show the basic declaration of pointer :\n");
 	printf("-----------------------------------------------");
 	printf("\nHere is m=10, n and o are two integer variable and *z is an integer");
@@ -16,4 +17,6 @@ int main(int argc, char* argv[])
 	printf("\n\n&z stores the address of z = %p", &z);
 
 	return 0;
-}
+	
+	
+};
