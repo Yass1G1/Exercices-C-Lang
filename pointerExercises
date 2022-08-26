@@ -16,7 +16,23 @@ int main(int argc, char* argv[])
 	printf("\n\n&o stores the address of o = %p", &o);
 	printf("\n\n&z stores the address of z = %p", &z);
 
-	return 0;
+	
+// Second exercise : ...
+	int m = 29;
+	printf("Adress of m : %p\n", &m);
+	printf("Value of m : %d\n\n", m);
+	int* ab = &m;
+	printf("Now ab is assigned with the address of m.");
+	printf("\nAddress of pointer ab : %p", ab);
+	printf("\nContent of pointer ab : %d", *ab);
+	m = 34;
+	printf("\n\nThe value of m assigned to 34 now.");
+	printf("\nAddress of pointer ab : %p", ab);
+	printf("\nContent of pointer ab : %d", *ab);
+	ab = 7;
+	printf("\n\nThe pointer variable ab is assigned with the value 7 now.");
+	printf("\nAddress of m : %p", &m);
+	printf("\nValue of m : %d \n", m);
 	
 	
 };
